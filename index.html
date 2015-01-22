@@ -42,7 +42,7 @@
           <ul class="navbar-list">
             <li><a class="hvr-fade" data-scroll href="#projects">Projects</a></li>
             <li><a class="hvr-fade" data-scroll href="#FAQ">FAQ</a></li>
-            <li><a class="hvr-fade" href="schedule.html">Schedule</a></li>
+            <li><a class="hvr-fade" data-scroll href="#schedule">Schedule</a></li>
             <li><a class="hvr-fade" data-scroll href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -96,12 +96,110 @@
         Previous projects can be found <a href="#">here</a>.
       </p>
     </div>
-  
+
+  <!-- Schedule
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row section" id="schedule">
+      <h4>Schedule - Fall 2014</h4>
+      <table class="u-full-width schedule">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Room</th>
+            <th>Topic</th>
+            <th>Presenter</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aug 29</td>
+            <td>5317</td>
+            <td>Project topics and pitches</td>
+            <td>Mosse and presenters</td>
+          </tr>
+          <tr>
+            <td>Sept 5</td>
+            <td>5129</td>
+            <td>How to do a powerpoint presentation and CS 1900 student presentations</td>
+            <td>
+              <ol>
+                <li>Daniel Mosse</li>
+                <li>Deeksha Gupta</li>
+                <li>Edward Misback</li>
+                <li>Jon Budd</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Sept 12</td>
+            <td>5317</td>
+            <td>CS 1900 Student Presentations</td>
+            <td>
+              <ol>
+                <li>Adam Schwab</li>
+                <li>Kyle Tanczos</li>
+                <li>Troy Taylor</li>
+                <li>Frank Torchia</li>
+                <li>Frank Wolverton</li>
+                <li>Joshua Zwolan</li>
+                <li>Christopher Price</li>
+                <li>John Phillips</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Sep 19</td>
+            <td>5129</td>
+            <td>Tech Talk</td>
+            <td>BNY Mellon</td>
+          </tr>
+          <tr>
+            <td>Sept 26</td>
+            <td>5317</td>
+            <td>Tech Talk</td>
+            <td>GEICO</td>
+          </tr>
+          <tr>
+            <td> Oct 3</td>
+            <td>5129</td>
+            <td>CS 1980 Student Presentations</td>
+            <td>
+              <ol>
+                <li>Elliott Bingol</li>
+                <li>Andrew Coons, Adnan Khan, Orin Guo</li>
+                <li>Christopher Iwaszko</li>
+                <li>John Kerdock, Matthew O'Hanlon</li>
+                <li>Cullen Strouse</li>
+                <li>Joshua Miner</li>
+                <li>Anthony Raehn</li>
+                <li>Hanyu Xiong, Elizabeth Davis</li>
+                <li>Hao Zhang</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Oct 10</td>
+            <td>5317</td>
+            <td>Student Presentations </td>
+            <td>
+              <ol>
+                <li>Joe galley</li>
+                <li>Alex Keller, Pedro Alvillar</li>
+                <li>Michael Shields</li>
+                <li>Eric Gratta</li>
+                <li>Spencer Bingol</li>
+              </ol>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
   <!-- F.A.Q.
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row section" id="FAQ">
       <h4>Frequently Asked Questions</h4>
-      <div class="eleven columns">
+      <div class="twelve columns">
         <p class="faq-question"><strong>What are the school's expectations for this project?</strong></p>
         <p>
           We expect the project to be doable in 15 weeks. We want projects that touch on at least three areas of computer science (for example, databases, web programming, and operating systems). In the end, we hope the students create something that can usable. The project must be designed so that within several weeks the students understand the problem and can begin to make progress. Remember these students are taking a full-load of classes and can only dedicate about 10 hours per week per team member.  For example, in one term, one team was assigned to modify a large program. It took more than half the semester before the team and the mentor became aware that the project wasn't doable in the time frame.
@@ -145,7 +243,8 @@
   <script>
     smoothScroll.init({
       speed: 700,
-      updateURL: false
+      updateURL: false,
+      offset: 60
     });
   </script>
 </footer>
