@@ -102,6 +102,8 @@ a {
     -webkit-column-gap: 1px;
     column-count: 2;
     column-gap: 1px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .schedule li {
@@ -127,6 +129,11 @@ a {
         line-height: 4.5rem;
         font-size: 1.5rem;
     }
+
+    body {
+        font-size: 1.2rem;
+    }
+
 }
 
 /* Larger than phablet */
