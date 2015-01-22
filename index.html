@@ -26,6 +26,7 @@
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script language="javascript" type="text/javascript" src="js/script.js"></script>
+  <script language="javascript" type="text/javascript" src="js/smooth-scroll.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -40,10 +41,10 @@
       <header class="nav-container container u-full-width">
         <div class="navbar">
           <ul class="navbar-list">
-            <li><a class="hvr-fade" href="#projects">Projects</a></li>
-            <li><a class="hvr-fade" href="#schedule">Schedule</a></li>
-            <li><a class="hvr-fade" href="#FAQ">FAQ</a></li>
-            <li><a class="hvr-fade" href="#contact">Contact</a></li>
+            <li><a class="hvr-fade" data-scroll href="#projects">Projects</a></li>
+            <li><a class="hvr-fade" data-scroll href="#schedule">Schedule</a></li>
+            <li><a class="hvr-fade" data-scroll href="#FAQ">FAQ</a></li>
+            <li><a class="hvr-fade" data-scroll href="#contact">Contact</a></li>
           </ul>
         </div>
       </header>
@@ -240,6 +241,14 @@
 
   </div>
 
+<footer>
+  <script>
+    smoothScroll.init({
+      speed: 700,
+      updateURL: false
+    });
+  </script>
+</footer>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

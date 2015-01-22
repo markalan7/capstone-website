@@ -29,6 +29,7 @@
     display: inline-block;
     list-style: none;
     margin: 0;
+    width: 100%;
 }
 
 .navbar li {
