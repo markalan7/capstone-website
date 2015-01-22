@@ -122,6 +122,19 @@ a {
 /* Media queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Phone-sized */
+@media (max-width: 549px) {
+    .navbar {
+        width: 100%; 
+    }
+    .navbar a {
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 4.5rem;
+        font-size: 1.5rem;
+    }
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
     .navbar li {
