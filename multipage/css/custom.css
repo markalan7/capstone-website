@@ -123,6 +123,7 @@ a {
         width: 100%;
         max-width: 100%
     }
+    
     .navbar a {
         padding-right: 10px;
         padding-left: 10px;
@@ -140,6 +141,14 @@ a {
 @media (min-width: 550px) {
     .navbar li {
         padding-right: 10px;
+    }
+}
+
+/* smaller than tablet */
+@media (max-width: 749px) {
+    .schedule th, td {
+        padding-right: 4px;
+        padding-left: 4px;
     }
 }
 
