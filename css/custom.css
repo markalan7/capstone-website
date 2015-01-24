@@ -6,21 +6,15 @@
     padding-top: 4rem;
 }
 
-.navbar-container {
-    width: 100%;
-}
-
 .navbar {
     position: fixed;
-    text-align: center;
     top: 0;
     left: 0;
-    margin: 0 auto;
-    background-color: #002868;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     width: 100%;
     z-index: 9999;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 56, 104, 0.95);
 }
 
 .navbar ul {
@@ -38,10 +32,6 @@
     text-align: center;
     text-decoration: none;
     padding-right: 0px;
-}
-
-.navbar li:hover {
-    color: #000033;
 }
 
 .navbar a {
@@ -73,11 +63,15 @@
 }
 
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #BCAD75;
+  background-color: rgba(188, 173, 117, 0.90);
 }
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+    overflow-y: scroll;
+}
+
 body {
     font-size: 1.4em;
 }
@@ -125,19 +119,23 @@ a {
 
 /* Phone-sized */
 @media (max-width: 549px) {
+
     .navbar {
         width: 100%;
         max-width: 100%
     }
+    
     .navbar a {
         padding-right: 10px;
         padding-left: 10px;
         line-height: 4.5rem;
         font-size: 1.5rem;
     }
+
     body {
         font-size: 1.2rem;
     }
+
 }
 
 /* Larger than phablet */
